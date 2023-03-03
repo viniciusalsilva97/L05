@@ -18,7 +18,6 @@ User Function L05E08()
 
     for nI := NMAXA to 1 step - 1
         cAux += cValToChar(aA[nI])
-        aDel(aA, nI)
     next
 
     aA := {}
