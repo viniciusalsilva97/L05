@@ -12,7 +12,6 @@ User Function L05E17()
     else
         vetorRandomico(aNumeros)
     endif  
-
     exibeVetor(aNumeros, "Array Populado")
     ordenaVetor(aNumeros)
     exibeVetor(aNumeros, "Array Ordenado")
