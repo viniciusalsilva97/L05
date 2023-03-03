@@ -23,10 +23,4 @@ User Function L05E16()
     next
 
     fwAlertInfo(ArrToKStr(aBoletim, CRLF), "Desempenho dos Alunos")
-
-    // for nLinha := 1 to NALUNOS
-    //     for nColuna := 1 to NNOTAS
-    //         FwAlertInfo("Aluno: " + cValToChar(aBoletim[nLinha][nColuna]) + CRLF + "Nota: " + cValToChar(aBoletim[nLinha][nColuna]), "Desempenho dos Alunos")
-    //     next
-    // next
 Return 
